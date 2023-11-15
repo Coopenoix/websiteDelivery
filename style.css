@@ -4,6 +4,7 @@ p {
 }
 
 #fadeAnimation {
+    animation: linear;
     animation-name: fade;
     animation-duration: 20s;
     animation-iteration-count: infinite;
