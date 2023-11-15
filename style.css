@@ -1,0 +1,21 @@
+p {
+            
+    font-family: Bitter;
+}
+
+#fadeAnimation {
+    animation-name: fade;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    transition: ease;
+}
+
+@keyframes fade {
+    0%   {background-color: #7D6E83;}
+    15%  {background-color: #D0B8A8;}
+    25%  {background-color: #DFD3C3;}
+    50% {background-color: #F8EDE3;}
+    75%  {background-color: #DFD3C3;}
+    80%  {background-color: #D0B8A8;}
+    100%   {background-color: #7D6E83;}
+}

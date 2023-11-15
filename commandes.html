@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Commandes</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
     <div>
@@ -22,8 +24,8 @@
           
             <div id="navbarExampleTransparentExample" class="navbar-menu">
                 <div class="navbar-start">
-                    <a class="navbar-item" href="main.html">
-                        Page d'accueil
+                    <a class="navbar-item" style="font-family: Italiana; font-size: large; font-weight: bolder;">
+                        Coopenoix : Cultivons le Plaisir, Récoltons la Qualité !
                     </a>
                 </div>
           
@@ -31,6 +33,11 @@
                     <div class="navbar-item">
                         <div class="field is-grouped">
                             <p class="control">
+                                <a class="bd-tw-button button is-success" href="main.html">
+                                    <span>
+                                        Page d'accueil
+                                    </span>
+                                </a>
                                 <a class="bd-tw-button button is-link" href="commandes.html">
                                     <span>
                                         Voir les commandes en cours
@@ -42,40 +49,62 @@
                 </div>
             </div>
         </nav>
-        <div>
-            <section class="hero is-small is-success">
-                <div class="hero-body">
-                    <div>
-                        <p class="title">
-                            Détails des commandes
-                        </p>
-                        <p class="subtitle">
-                            Prises en charges des commandes uniquement dans la période 39-45
-                        </p>
-                    </div>
-                </div>
-            </section>
-        </div>
         <div class="block"></div>
         <div>
-            <table class="table" style="width: 100%;">
-                <thead>
-                    <tr>
-                        <th>ID de commande</th>
-                        <th>Nom du client</th>
-                        <th>Date de la commande</th>
-                        <th>Date de livraison</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th>1</th>
-                        <th>Ladenm Benne</th>
-                        <th>11/07/2001</th>
-                        <th>24/07/2001</th>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="columns">
+                <div class="column is-1"></div>
+                <div class="column">
+                    <div class="box" id="fadeAnimation">
+                        <nav class="level is-mobile">
+                            <div class="level-item has-text-centered">
+                              <div>
+                                <figure class="image is-128x128">
+                                    <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c1db.png">
+                                </figure>
+                              </div>
+                            </div>
+                            <div class="level-item has-text-centered">
+                              <div>
+                                <p class="title">
+                                    Coopenoix depuis 1929
+                                </p>
+                                <div class="block"></div>
+                                <p class="subtitle">
+                                    Coopenoix, là où chaque noix incarne notre engagement</br> envers le goût authentique et la durabilité.
+                                </p>
+                              </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <table class="table" style="width: 100%;">
+                        <thead>
+                            <tr>
+                                <th>ID de commande</th>
+                                <th>Nom du client</th>
+                                <th>Date de la commande</th>
+                                <th>Date de livraison</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>1</th>
+                                <th>Ladenm Benne</th>
+                                <th>11/07/2001</th>
+                                <th>24/07/2001</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="column is-1"></div>
+            </div>
+        </div>
+    </div>
+    <div class="block"></div>
+    <div class="footer">
+        <div class="content has-text-centered">
+            <p style="color: black;">
+                Site développer a l'occasion du BTS SIO par <a href="https://github.com/Azerothwav">François BAILLE</a>.
+            </p>
         </div>
     </div>
 </body>
